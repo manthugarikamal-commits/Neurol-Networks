@@ -1,0 +1,2 @@
+loss_fn = nn.MSELoss()
+pot = torch.optim.Adam(model.parameters(),lr=0.01)
